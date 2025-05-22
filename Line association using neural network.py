@@ -782,11 +782,13 @@ if __name__ == "__main__":
 
     # Set the following flags to control script behavior:
     # NOTE: Make sure the model is trained before running visualization or evaluation
-    train = False          # Train the model and save it
 
-    # Visualize line matching (works with or without trained model)
+    # If train = true then train the model and save it
+    train = False
+    # If visualize = true then visualize line matching (works with or without trained model)
     visualize = True
-    evaluate = False      # Evaluate NN vs rule-based (requires trained model)
+    # If evaluate = true then evaluate NN vs rule-based (requires trained model)
+    evaluate = False
 
     base_dir = r"C:\Users\DELL\Documents\CULaneDataSet"
     model_path = os.path.join(base_dir, "association_model_2025_5_22.pth")
