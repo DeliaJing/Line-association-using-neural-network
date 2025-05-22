@@ -1,6 +1,10 @@
 # Line-association-using-neural-network
 
+In the github repository the image.png files are used in this readme document.
+
 User guide:
+
+First please download the python file:Line association using neural network.py 
 
 1.Test Purpose 
 
@@ -35,7 +39,7 @@ User guide:
 
 3.Use a Pretrained Line Association Model (Provided)
 
-    If you prefer not to train the model from scratch, you can use the pretrained model file that is included/provided with the project. Follow the steps below to set it up :
+    If you prefer not to train the model from scratch, you can use the pretrained model file that is included/provided with the project:association_model_2025_5_22 . Follow the steps below to set it up :
     
     1).Place the pretrained model 
     Copy the provided model file (e.g., association_model_final.pth) to your desired directory.
